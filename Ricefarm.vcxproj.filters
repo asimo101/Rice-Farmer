@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RiceVariety.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\armintr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mbstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\CodeAnalysis\sourceannotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Farm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RiceVariety.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\set" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility" />
+  </ItemGroup>
+</Project>

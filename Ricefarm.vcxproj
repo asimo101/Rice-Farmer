@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1E7DD75-28F9-4C25-B7F8-29E868A13FE6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Ricefarm</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\armintr.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\CodeAnalysis\sourceannotations.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mbstring.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h" />
+    <ClInclude Include="Farm.h" />
+    <ClInclude Include="RiceVariety.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Farm.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RiceVariety.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\set" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
